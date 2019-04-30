@@ -42,19 +42,19 @@ Download the preview release with the link. After downloads execute it.
 You will see the install processing window. It usually takes around 5~10 minutes
 to finish it. You will be ready to get started soon.
 
-<img src="blank.png" class="lazy" width="472" height="312" data-src="https://resources.framerflow.com/assets/install-spinner.gif">
+![](https://resources.framerflow.com/assets/install-spinner.gif)
 
 After install successfully done FramerFlow is automatically being launched.
 You are able to see the screen.
 
-<img src="blank.png" class="lazy" width="676" height="527" data-src="http://resources.framerflow.com/assets/framerflow00.png">
-<i></i>
+![](https://resources.framerflow.com/assets/framerflow00.png)
+
 
 ### User Interface
 Here we'll go through some of the basic UI elements of FramerFlow. Your typical workspace
 is just as following.
 
-<img src="blank.png" class="lazy" width="1015" height="606" data-src="http://resources.framerflow.com/assets/userinterface_overview.gif">
+![](https://resources.framerflow.com/assets/userinterface_overview.gif)
 
 * `Files` - manage and see your project files. Toggle is possible.
 * `Layers` - Understand how your layers are structured and inspect.
@@ -79,8 +79,7 @@ Starting a new project is simple and easy.
 3. Enter project name and location then click OK.
 5. You can see very basic skeleton project code.
 
-<img src="blank.png" class="lazy" width="824" height="642" data-src="http://resources.framerflow.com/assets/new_project.gif">
-<i></i>
+![](http://resources.framerflow.com/assets/new_project.gif)
 
 ### Notes on generated code
 
@@ -128,8 +127,7 @@ when you do CoffeeScript codings.
 ### ES6 - Fat Arrow
 `()=>{}`. Fat arrow is very shorthand form to define inline function or anonymous function.
 
-<img src="blank.png" class="lazy" width="607" height="508" data-src="http://resources.framerflow.com/assets/es6_fat_arrow.gif">
-
+![](http://resources.framerflow.com/assets/es6_fat_arrow.gif)
 
 Please check the code.
 ```
@@ -159,8 +157,7 @@ The console log always prints `Seattle`.
 You can easily fix the problem by changing `var` into `let`: 
 Check this.
 
-<img src="blank.png" class="lazy" width="607" height="508" data-src="http://resources.framerflow.com/assets/es6_let.gif">
-<i></i>
+![](http://resources.framerflow.com/assets/es6_let.gif)
 
 ### ES6 - Contant
 `const` provides read-only variable. Once you initialize value, you have 
@@ -169,7 +166,7 @@ no right to change the value.
 > your code would be much better in terms of simplicity and robusteness.
 > This is definitely an way to be awesome programmer. 
 
-<img src="blank.png" class="lazy" width="607" height="508" data-src="http://resources.framerflow.com/assets/es6_const.gif">
+![](http://resources.framerflow.com/assets/es6_const.gif)
 
 ``` 
 const IsFramerJsAwesome = true;
@@ -181,7 +178,7 @@ IsFramerJsAwesome = false;
 This is time saver. `Template Strings` is a really handy tools for formatting
 strings.
 
-<img src="blank.png" class="lazy" width="607" height="508" data-src="http://resources.framerflow.com/assets/es6_destructuring.gif">
+![](http://resources.framerflow.com/assets/es6_destructuring.gif)
 
 ```
 let cityInfo = {
@@ -205,7 +202,7 @@ well enough, you could build a great prototype easier and faster.
 You can easily create a new module and use it
 inside your program. Here is simple example.
 
-<img src="blank.png" class="lazy" width="605" height="456" data-src="http://resources.framerflow.com/assets/codingtools_module.gif">
+![](http://resources.framerflow.com/assets/codingtools_module.gif)
 
 You can create a module file anywhere you want. But usual location is under
 root folder or `modules` folder. If you use module creation ui, the file is
@@ -235,7 +232,7 @@ FramerFlow basically supports node.js module system. Let's start to use `lodash`
 module which is a great utility library for handling array, object and etc.
 See the image.
 
-<img src="blank.png" class="lazy" width="720" height="512" data-src="http://resources.framerflow.com/assets/codingtools_modules_node.gif">
+![](http://resources.framerflow.com/assets/codingtools_modules_node.gif)
 
 It's simple, isn't it? You can freely use nodejs modules.
 
@@ -252,7 +249,7 @@ only report a value to you whenever it gots a hit from code execution.
 
 Here is the guide.
 
-<img src="blank.png" class="lazy" width="720" height="489" data-src="http://resources.framerflow.com/assets/codingtools_instant_watch.gif">
+![](http://resources.framerflow.com/assets/codingtools_instant_watch.gif)
 
 #### Watch History
 If a watch got several hits such as using `setInterval`, it records its history.
@@ -268,15 +265,13 @@ for REPL is simple.
 2. Then `Ctrl + e`
 3. The code exeuction result is displayed in console window.
 
-<img src="blank.png" class="lazy" width="720" height="535" data-src="http://resources.framerflow.com/assets/codingtools_repl.gif">
-
+![](http://resources.framerflow.com/assets/codingtools_repl.gif)
 
 FramerFlow also provides console window. All console log (i.e., `console.log("hello");`) are 
 redirect to the console window. So you do not need to open up devtools for your project. 
 If you want to inspect more deeply, you can open Chrome's devtool.
 
-<img src="blank.png" class="lazy" width="720" height="535" data-src="http://resources.framerflow.com/assets/codingtools_console.gif">
-<i></i>
+![](http://resources.framerflow.com/assets/codingtools_console.gif)
  
 
 ### Code Analysis
@@ -296,14 +291,13 @@ Generally we call the analysis as static analysis. Most benefits from the analys
 The function `square` accepts one number and returns its square value. The example shows
 when invalid input is given, the analysis suggests potential error point.
 
-<img src="blank.png" class="lazy" width="720" height="535" data-src="http://resources.framerflow.com/assets/codingtools_ana_type_tracking.gif">
+![](http://resources.framerflow.com/assets/codingtools_ana_type_tracking.gif)
 
 #### Example 2 - Null checking 
 FlowType is really good at finding possible null point. The sample is here.
 `maybeNo` could be null in certain situation. So FlowType detects the possibility in the code.
 
-<img src="blank.png" class="lazy" width="720" height="535" data-src="http://resources.framerflow.com/assets/codingtools_ana_fixing_errors.gif">
-
+![](http://resources.framerflow.com/assets/codingtools_ana_fixing_errors.gif)
 
 
 
@@ -325,8 +319,7 @@ layer hierarchy inside your editor. You can try very basic layer's properties.
  * Inspect in preview
  * States
 
-<img src="blank.png" class="lazy" width="720" height="453" data-src="http://resources.framerflow.com/assets/designtools_layer_inspection.gif">
-
+![](http://resources.framerflow.com/assets/designtools_layer_inspection.gif)
 
 ### Jump to Layer Definition
  FramerFlow always tries to find an way to map your source code's variable to
@@ -338,8 +331,7 @@ layer hierarchy inside your editor. You can try very basic layer's properties.
  mapping variable, the name is on the layer panel. If you click the variable, you can
  see where the layer is actually used in your design.
 
-<img src="blank.png" class="lazy" width="720" height="536" data-src="http://resources.framerflow.com/assets/designtools_layer_jump.gif">
-
+![](http://resources.framerflow.com/assets/designtools_layer_jump.gif)
 
 ### States
 Layer states are also displayed if it has. When you click each state, the corresponding layer
@@ -350,7 +342,7 @@ If you click right button, there is `Execute next() state` menu. Click the menu 
 moves onto next state by its order.
 
 
-<img src="blank.png" class="lazy" width="720" height="536" data-src="http://resources.framerflow.com/assets/designtools_layer_states.gif">
+![](http://resources.framerflow.com/assets/designtools_layer_states.gif)
 
 ### Change configurations
 There is command menus on preview window above. You can try some configurations:
@@ -378,7 +370,7 @@ device's browser if the device uses same WiFi router.
 On the mirroring page mouse, touch and scroll actions are propagates into every connected
  devices.
 
-<img src="blank.png" class="lazy" width="720" height="536" data-src="http://resources.framerflow.com/assets/publishing_mirror.gif">
+![](http://resources.framerflow.com/assets/publishing_mirror.gif)
 
 ### Sharing
 In order to share your project, you should first sign in to FramerFlow service.
@@ -388,13 +380,13 @@ Once you sign in share is just one-tap away. Click `share` button on the left, b
 Then click `Publish`. That's it. You will get the link. You can share freely as you want.
 If you do not like share anymore, then just go back to share dialog. Then `Delete` button.
 
-<img src="blank.png" class="lazy" width="720" height="536" data-src="http://resources.framerflow.com/assets/publishing_share.gif">
+![](http://resources.framerflow.com/assets/publishing_share.gif)
 
 ### Export
 When you need to host your prototype privately or back up your prototype, `export` could be
 helpful in the situation. Click `File` > `Export` then type in the zip file name. Pretty simple.
 
-<img src="blank.png" class="lazy" width="720" height="592" data-src="http://resources.framerflow.com/assets/publishing_export.gif">
+![](http://resources.framerflow.com/assets/publishing_export.gif)
 
 ## Editing tools
 FramerFlow provides some modern editing features as following:
@@ -407,24 +399,24 @@ FramerFlow provides some modern editing features as following:
 First select some region and `Ctrl + d` will select next same occurrence. You can simultaneously
 change with multiple selections.
 
-<img src="blank.png" class="lazy" width="720" height="536" data-src="http://resources.framerflow.com/assets/editing_multi_cursor.gif">
+![](http://resources.framerflow.com/assets/editing_multi_cursor.gif)
 
 ### Expand range
 By pressing `Ctrl + w` you can grow the selection into next block level. Very helpful tool once
 you get used.
 
-<img src="blank.png" class="lazy" width="720" height="536" data-src="http://resources.framerflow.com/assets/editing_expand_region.gif">
+![](http://resources.framerflow.com/assets/editing_expand_region.gif)
 
 ### Quick finder
 `Alt + o` opens quick finder. By a few keystroke you can find your file easily.
 
-<img src="blank.png" class="lazy" width="720" height="536" data-src="http://resources.framerflow.com/assets/editing_quick_finder.gif">
+![](http://resources.framerflow.com/assets/editing_quick_finder.gif)
 
 ### Auto format
 `Ctrl + '` automatically reformat you code. Do not spend you time to beautify your code. It is
 editor's job.
 
-<img src="blank.png" class="lazy" width="720" height="536" data-src="http://resources.framerflow.com/assets/editing_auto_format.gif">
+![](http://resources.framerflow.com/assets/editing_auto_format.gif)
 
 ## Import Tools
 ### FramerStudio
@@ -446,7 +438,7 @@ are beautifully created and carefully crafted by Framer.js community. All most o
 ### Import from FramerStuio URL
 You can import a project from shared URL into FramerFlow.
 
-<img src="blank.png" class="lazy" width="720" height="591" data-src="http://resources.framerflow.com/assets/import_url.gif">
+![](http://resources.framerflow.com/assets/import_url.gif)
 
 # REFERENCES
 Here are useful references:
