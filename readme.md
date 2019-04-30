@@ -42,7 +42,7 @@ Download the preview release with the link. After downloads execute it.
 You will see the install processing window. It usually takes around 5~10 minutes
 to finish it. You will be ready to get started soon.
 
-<img src="blank.png" class="lazy" width="472" height="312" data-src="http://resources.framerflow.com/assets/install-spinner.gif">
+<img src="blank.png" class="lazy" width="472" height="312" data-src="https://resources.framerflow.com/assets/install-spinner.gif">
 
 After install successfully done FramerFlow is automatically being launched.
 You are able to see the screen.
